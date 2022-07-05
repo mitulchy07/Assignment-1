@@ -3,6 +3,9 @@ body{
     margin: 0;
 
 }
+section{
+    margin-bottom: 200px;
+}
 .top-banner-section{
      box-shadow: 20px 20px 50px gray;
 }
@@ -37,15 +40,16 @@ body{
     text-decoration: none;
 }
 
-.donate-today-para{
+.para{
     text-align: center;
+    padding: 20px;
 }
 
-.donate-today-para h1{
+.para h1{
     font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.donate-today-para h3{
+.para h3{
     font-size: 25px;
 }
 
@@ -86,11 +90,29 @@ body{
     border: none;
     border-bottom: 2px solid gray;
 }
+.donation-plans{
+    display: flex;
+    margin-left: 200px ;
+    margin-right: 200px;
+}
+.one-third-content{
+    width: 33.3%;
+    border-radius: 5px;
+    background-color: #4f9da67b;
+    margin: 10px;
+    padding: 50px;
+}
 
+#shelter{
+    background-color:#ff595952 ;
+}
+#education{
+    background-color: #fff4d66b;
+}
 
-
-
-
+.one-third-content h2{
+    font-size: 40px;
+}
 
 
 
