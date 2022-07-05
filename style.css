@@ -149,6 +149,60 @@ section{
     margin-left: 50px;
 }
 
+.target-money{
+    display: flex;
+    margin: 20px 400px;
+    font-size: 40px;
+    background-image: linear-gradient(to right, #FF5959, #ff595984);
+    border-radius: 20px;
+    box-shadow: 30px 30px 90px gray;
+    
+
+}
+
+.donation-target{
+    text-align: center;
+    width: 33.3%;
+}
+
+#collected{
+    border: none;
+    border-left: solid gray;
+    border-right: solid gray;
+}
+
+.subscribe{
+    display: flex;
+    justify-content: center;
+    background-color: #FFF4D6;
+    padding: 100px 20px ;
+    margin: 0 400px;
+    border-radius: 20px;
+}
+
+.subscribe input{
+    position: relative;
+    display: inline-block;
+    font-size: 30px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-right: none;
+}
+
+footer{
+    background-color: #0B0D17;
+    text-align: center;
+    padding: 80px;
+    margin-bottom: 0;
+}
+
+footer h1{
+    color: #FF5959;
+    font-size: 50px;
+}
+footer p{
+    color: #FAFAFA;
+}
 
 
 
