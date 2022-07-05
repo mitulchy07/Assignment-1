@@ -3,24 +3,27 @@ body{
     margin: 0;
 
 }
-
+.top-banner-section{
+     box-shadow: 20px 20px 50px gray;
+}
 .top-banner{
     background-image: url(images/top-banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     text-align: center;
+   
 }
 
 .top-banner h1{
         font-size: 150px;
-        color: antiquewhite;
+        color: rgb(255, 255, 255);
         margin: 0;
         padding-top:200px ;
         
 }
 .top-banner h3{
-    color: antiquewhite;
+    color: rgb(253, 252, 251);
     font-size: 30px;
 }
 
@@ -33,3 +36,65 @@ body{
     border-radius: 5px;
     text-decoration: none;
 }
+
+.donate-today-para{
+    text-align: center;
+}
+
+.donate-today-para h1{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.donate-today-para h3{
+    font-size: 25px;
+}
+
+.donation-amount{
+    display: flex;
+    justify-items: center;
+    margin: 20px 200px;
+}
+
+.amount{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    width: 20%;
+    margin: 20px;
+    background-color: #FAFAFA;
+    padding: 60px;
+    border-radius: 15px;
+}
+
+#selected-amount{
+    border: 2px solid #FF5959;
+    background-color: #FFEEEE;
+    color: #FF5959;
+}
+
+.other-amount{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;    
+}
+
+.other-amount input{
+    padding-left: 400px ;
+    padding-right: 400px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
