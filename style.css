@@ -167,6 +167,7 @@ section{
 
 .city-name{
     color: greenyellow;
+    font-size: 40px;
 }
 
 .flash p{
@@ -176,6 +177,7 @@ section{
 
 .raised{
     color: chocolate;
+    font-size: 30px;
 }
 
 .see-more{
