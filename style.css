@@ -150,32 +150,55 @@ section{
     margin-left: 50px;
 }
 
-.target-money{
+.one-third-flash-card{
     display: flex;
-    margin: 20px 400px;
-    font-size: 40px;
-    background-image: linear-gradient(to right, #FF5959, #ff595984);
-    border-radius: 20px;
-    box-shadow: 30px 30px 90px gray;
-    
+    margin: 50px 150px;
 
 }
 
-.donation-target{
-    text-align: center;
+.flash{
     width: 33.3%;
 }
 
-#collected{
-    border: none;
-    border-left: solid gray;
-    border-right: solid gray;
+.flash img{
+    width: 80%;
+    border-radius: 10px;
+}
+
+.city-name{
+    color: greenyellow;
+}
+
+.flash p{
+    text-align: justify;
+    padding-right: 80px;
+}
+
+.raised{
+    color: chocolate;
+}
+
+.see-more{
+    display: flex;
+    justify-content: center;
+}
+
+.see-more-button{
+    background-color: transparent;
+    border: 2px solid greenyellow;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: greenyellow;
+    margin-bottom: 20px;
+    font-size: 30px;
+
 }
 
 .subscribe{
     display: flex;
     justify-content: center;
-    background-color: #FFF4D6;
+    background-color: #f5dc98;
     padding: 100px 20px ;
     margin: 0 400px;
     border-radius: 20px;
@@ -204,7 +227,6 @@ footer h1{
 footer p{
     color: #FAFAFA;
 }
-
 
 
 
