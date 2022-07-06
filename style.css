@@ -72,7 +72,7 @@ section{
 
 #selected-amount{
     border: 2px solid #FF5959;
-    background-color: #FFEEEE;
+    background-color: #e99393;
     color: #FF5959;
 }
 
@@ -105,10 +105,10 @@ section{
 }
 
 #shelter{
-    background-color:#ff595952 ;
+    background-color:#f85050bc ;
 }
 #education{
-    background-color: #fff4d66b;
+    background-color: gray;
 }
 
 .one-third-content h2{
